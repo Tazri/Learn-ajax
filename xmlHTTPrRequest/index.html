@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box ;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: #111;
+        }
+        h1{
+            color: crimson;
+            text-align: center;
+            margin: 20px 0px;
+        }
+        div{
+            text-align: center;
+        }
+        button{
+            padding: 20px 30px;
+            border: 2px solid transparent;
+            background-color: crimson;
+            margin: 0px 10px;
+            font-size: 18px;
+            transition: all 0.5s;
+        }
+
+        button:hover{
+            color: crimson;
+            background-color: transparent;
+            border: 2px solid crimson;
+        }
+
+        button:focus{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>XMLHttpRequest</h1>
+    <div>
+        <button id="get-btn">Get Data</button>
+        <button id="send-btn">Send Data</button>
+    </div>
+
+    <script src="./xml.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "learn-ajax",
+  "version": "1.0.0",
+  "description": "This is for learn about ajax.Learn what is ajax and how to use it. Also practicing api for master on api.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tazri/Learn-ajax-git.git"
+  },
+  "author": "Md Tazri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tazri/Learn-ajax-git/issues"
+  },
+  "homepage": "https://github.com/Tazri/Learn-ajax-git#readme",
+  "dependencies": {
+    "faker": "^5.3.1"
+  }
+}

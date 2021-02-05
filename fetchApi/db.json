@@ -1,0 +1,52 @@
+{
+  "contacts": [
+    {
+      "id": 6,
+      "name": "Peter Wiegand",
+      "email": "Casper.Wolff@yahoo.com",
+      "color": "salmon"
+    },
+    {
+      "id": 5,
+      "name": "Troy Herzog",
+      "email": "Jude43@gmail.com",
+      "color": "purple"
+    },
+    {
+      "id": 4,
+      "name": "Jan Mayer",
+      "email": "Sandra.Crooks@hotmail.com",
+      "color": "orange"
+    },
+    {
+      "id": 3,
+      "name": "Alfred Bednar",
+      "email": "Luigi.Quitzon74@yahoo.com",
+      "color": "tan"
+    },
+    {
+      "id": 2,
+      "name": "Miss Rachel Crona",
+      "email": "Leda_Lowe@gmail.com",
+      "color": "turquoise"
+    },
+    {
+      "id": 1,
+      "name": "Jenny Kreiger",
+      "email": "Joaquin_Hane@gmail.com",
+      "color": "salmon"
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "id": 10
+    }
+  ]
+}
