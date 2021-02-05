@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Tazri/Learn-ajax-git#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
     "faker": "^5.3.1"
   }
 }

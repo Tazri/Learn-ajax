@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Person</title>
+    <!-- Link font awesome-->
+    <link rel="stylesheet" href="./../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <!-- Link locale link-->
+    <link rel="stylesheet" href="./../../css/randomPerson.css">
+</head>
+<body>
+    <h1>Random Person</h1>
+
+    <!-- Start Person Details -->
+    <div class="person-details">
+        <!-- Start Person Image-->
+        <img src="./../../img/avatar.png" 
+                  alt=""
+                  id="person-img"
+                  class="person-img">
+        <!-- End Person Image-->
+
+        <!-- Start Details -->
+        <div class="details">
+            <p class="person-hello"><span id="person-hello">Hi</span>, My name is</p>
+            <h2 class="person-name" id="person-name">My Name khan</h2>
+
+            <!-- Start Personal Info -->
+            <section class="personal-info details-section">
+                <h2 class="section-title">Personal Information</h2>
+                
+                <!-- Start Details Topics -->
+                <div class="details-topics">
+                    
+                    <div class="topic">
+                        <p>Name : <span id="person-full-name">Md Tazri</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>Gender : <span id="person-gender">Male</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>Barthday : <span id="person-birth">10Fab</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>Age : <span id="person-age">17</span></p>
+                    </div>
+
+                </div>
+                <!-- End Details Topics -->
+            </section>
+            <!-- End Personal Info -->
+
+            <!-- Start Address -->
+            <section class="personal-info details-section">
+                <h2 class="section-title">Address</h2>
+                
+                <!-- Start Details Topics -->
+                <div class="details-topics">
+                    
+                    <div class="topic">
+                        <p>Country : <span id="person-country">Bangladesh</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>City : <span id="person-city">Comilla</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>Postcode : <span id="person-postcode">3600</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>State : <span id="person-state">Shodor</span></p>
+                    </div>
+
+                </div>
+                <!-- End Details Topics -->
+            </section>
+            <!-- End Address -->
+
+            <!-- Start Contact Info -->
+            <section class="personal-info details-section">
+                <h2 class="section-title">Contact Information</h2>
+                
+                <!-- Start Details Topics -->
+                <div class="details-topics">
+                    
+                    <div class="topic">
+                        <p>Email : <span id="person-email">unknow@gmail.com</span></p>
+                    </div>
+
+                    <div class="topic">
+                        <p>Phone : <span id="person-phone">012424332</span></p>
+                    </div>
+
+                </div>
+                <!-- End Details Topics -->
+            </section>
+            <!-- End Contact Info -->
+
+        </div>
+        <!-- End Details-->
+    </div>
+    <!-- End Person Details -->
+    
+    <!-- Button for generate another person -->
+    <button id="gen-btn">Next &#62;</button>
+    <script src="./../../js/randomPerson.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+    margin: 40px 0px 160px 0px;
+}
+
+/* Start design person details show */
+.person-details{
+    width: 70%;
+    min-width: 500px;
+    margin: 20px auto;
+    border: 1px solid #222;
+    border-radius: 10px;
+    position: relative;
+}
+
+.person-img{
+    width: 128px;
+    height: 128px;
+    border: 1px solid #222;
+    outline: none;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.details{
+    margin: 80px 0px;
+}
+
+.person-name,.person-hello{
+    color: rgb(255, 0, 51);
+    text-align: center;
+}
+
+.person-hello{
+    color: crimson;
+}
+
+.details-section{
+    margin: 40px 0px;
+    
+}
+
+.section-title{
+    color: rgb(252, 0, 117);
+    margin: 0px auto;
+    width: 40%;
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 1px solid rgb(252, 0, 117);
+    padding-bottom: 10px;
+}
+
+.details-topics{
+    margin: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.topic{
+    width: 40%;
+    font-size: 20px;
+    color: rgb(252, 0, 117);
+    margin: 10px 0px;
+}
+
+.topic span{
+    color:rgb(199, 0, 40);
+}
+
+/* End design person details show */
+
+/* Button */
+button{
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(252, 0, 117);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+button:focus{
+    outline: none;
+}
+
+button:hover{
+    background: transparent;
+    border: 2px solid rgb(252, 0, 117);
+    color:rgb(252, 0, 117);
+}
